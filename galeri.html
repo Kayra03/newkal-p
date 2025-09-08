@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Galeri - New Kalıp</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.js"></script>
+</head>
+<body>
+   <header class="fade-in">
+    <div class="logo">
+        <img src="img/logo.jpg" alt="New Kalıp Logo">
+    </div>
+    <h1>New Mold Kalıp</h1>
+
+    <!-- Hamburger buton sadece mobilde gözükür -->
+    <button id="menu-toggle"><i class="fas fa-bars"></i></button>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Ana Sayfa</a></li>
+            <li><a href="hakkimizda.html"><i class="fas fa-users"></i> Hakkımızda</a></li>
+            <li><a href="hizmetler.html"><i class="fas fa-cogs"></i> Hizmetler</a></li>
+            <li><a href="galeri.html"><i class="fas fa-images"></i> Galeri</a></li>
+            <li><a href="iletisim.html"><i class="fas fa-envelope"></i> İletişim</a></li>
+        </ul>
+    </nav>
+
+    <!-- Tema toggle butonu -->
+    <div class="toggle-wrapper">
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider">
+                <span class="icon-wrapper sun"><i class="fas fa-sun"></i></span>
+                <span class="icon-wrapper moon"><i class="fas fa-moon"></i></span>
+            </span>
+        </label>
+    </div>
+</header>
+    <main>
+    <section class="gallery-section fade-in">
+        <h2> Yaptığımız Kalıplarımızdan Bazıları</h2>
+        <div class="gallery-grid">
+
+            <!-- Kalıp 1 -->
+            <div class="gallery-card">
+                <h3>Kalıp 1</h3>
+                <p>3D tasarım, üretim videosu ve numune fotoğrafı.</p>
+                <div class="media-row">
+                    <img src="img/1kalıp.jpg" alt="Kalıp 1 3D Tasarım">
+                    <video src="img/1tasarım.mp4" controls poster="img/1kalıp.jpg"></video>
+                    <img src="img/1numune.jpg" alt="Kalıp 1 Numune">
+                </div>
+            </div>
+
+            <!-- Kalıp 2 -->
+            <div class="gallery-card">
+                <h3>Kalıp 2</h3>
+                <p>3D tasarım, üretim videosu, numune ve ek görseller.</p>
+                <div class="media-row">
+                    <img src="img/2işlemesi.jpg" alt="Kalıp 2 3D Tasarım">
+                    <video src="img/2basım.mp4" controls poster="img/2işlemesi.jpg"></video>
+                    <img src="img/2numune.jpg" alt="Kalıp 2 Numune">
+                    <img src="img/2kalıp.jpg" alt="Kalıp 2 Ek Görsel">
+                    <img src="img/2kalıp2.jpg" alt="Kalıp 2 Ek Görsel">
+                </div>
+            </div>
+
+            <!-- Kalıp 3 -->
+            <div class="gallery-card">
+                <h3>Kalıp 3</h3>
+                <p>3D tasarım ve üretim videosu.</p>
+                <div class="media-row">
+                    <img src="img/3tasarım.jpg" alt="Kalıp 3 3D Tasarım">
+                     <img src="img/3numune.jpg" alt="Kalıp 3 Numune">
+                     <img src="img/3kalıp.jpg" alt="Kalıp 3 kalıp">
+                </div>
+            </div>
+
+            <!-- Kalıp 4 -->
+            <div class="gallery-card">
+                <h3>Kalıp 4</h3>
+                <p>3D tasarım, numune ve üretim süreci.</p>
+                <div class="media-row">
+                    <video src="img/4numunebirleştirme.mp4" controls poster="img/4numune.jpg"></video>
+                    <video src="img/4tasarım.mp4" controls poster="img/4kalıp.jpg"></video>
+                    <img src="img/4numune.jpg" alt="Kalıp 4 Üretim">
+                    <video src="img/4basım.mp4" controls poster="img/4kalıp.jpg"></video>
+                    <img src="img/4kalıp.jpg" alt="Kalıp 4 3D Tasarım">
+
+                </div>
+            </div>
+
+            <!-- Kalıp 5 -->
+            <div class="gallery-card">
+                <h3>Kalıp 5</h3>
+                <p>3D tasarım, numune ve ek görsel.</p>
+                <div class="media-row">
+                    <img src="img/5tasarım.jpg" alt="Kalıp 5 3D Tasarım">
+                    <img src="img/5numune.jpg" alt="Kalıp 5 Numune">
+                    <video src="img/5tasarımbaşı.mp4" controls poster="img/5tasarım.jpg"></video>
+                </div>
+            </div>
+
+            <!-- Ekstra Video Kartı 1 -->
+            <div class="gallery-card">
+                <h3>Üretim Videosu 1</h3>
+                <p>Üretim sürecinden kısa bir kesit.</p>
+                <div class="media-row">
+                    <video src="img/basım.mp4" controls poster="img/kalıp1.png"></video>
+                </div>
+            </div>
+
+            <!-- Ekstra Video Kartı 2 -->
+            <div class="gallery-card">
+                <h3>Üretim Videosu 2</h3>
+                <p>Farklı bir kalıp üretim videosu.</p>
+                <div class="media-row">
+                    <video src="img/basım2.mp4" controls poster="img/kalıp1.png"></video>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+    <footer class="fade-in">
+    <div class="footer-links">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hizmetler.html">Hizmetler</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="iletisim.html">İletişim</a>
+    </div>
+    <p>&copy; 2025 New Kalıp. Tüm hakları saklıdır.</p>
+</footer>
+</body>
+</html>
